@@ -4,7 +4,8 @@ app = Flask(__name__)
 
 @app.get("/")
 def home():
-    return "Hello from main + branch A together!"
+    return "Hello from main after branch!"
+
 
 
 if __name__ == "__main__":
